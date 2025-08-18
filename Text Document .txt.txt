@@ -1,0 +1,23 @@
+
+Hasib@DESKTOP-5R4F297 MINGW64 ~/Desktop/project1 (main)
+$ git config --global user.name "Hanif"
+
+Hasib@DESKTOP-5R4F297 MINGW64 ~/Desktop/project1 (main)
+$ git config --global user.email "hanif100391@gmail.com"
+
+Hasib@DESKTOP-5R4F297 MINGW64 ~/Desktop/project1 (main)
+$ cd C:/Users/Hasib/Desktop/project1
+
+git init
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote remove origin   # (যদি আগেই origin থাকে)
+git remote add origin https://github.com/hanif100391/BLOD-DONATION-MANAGEMENT.git
+git push -u origin main
+Reinitialized existing Git repository in C:/Users/Hasib/Desktop/project1/.git/
+[main (root-commit) aac842c] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Text Document .txt.txt
+info: please complete authentication in your browser...
+
